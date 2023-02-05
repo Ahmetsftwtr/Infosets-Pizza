@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(243, 243, 243);
+
+}
+
+.main_page {
+  width:100%;
+  height:100%;
+
+}
+
+.header_text {
+    
+font-size: 3rem;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.header_text span {
+  font-size: 3rem;
+}
+.restaurant_list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.restaurant_list_head {
+  margin:20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:30px;
+  justify-items: center;
+  
+}
+.restaurant_item {
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+button {
+  width:150px;
+  background-color: rgb(0, 162, 255);
+  cursor: pointer;
+  color:white;
+  font-size: 0.9rem;
+  border:none;
+  height:40px;
+}
+button:hover
+{
+  background-color: rgb(32, 140, 202);
+
+}
+
